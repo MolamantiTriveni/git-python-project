@@ -1,9 +1,12 @@
-"""n=eval(input("enter n:"))
-m=reverse(n)
-if m==n:
-     print(' it is a palindrome',n)
+def isPalindrome(s):
+    return s == s[::-1]
+s = input("Enter a string")
+ans = isPalindrome(s) 
+if ans:
+    print("Yes")
 else:
-      print("not palindrome")"""
+    print("No")
+
 
 
 
